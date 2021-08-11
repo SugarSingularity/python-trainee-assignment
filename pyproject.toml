@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-trainee-assignment"
+version = "0.1.0"
+description = ""
+authors = ["SugarSingularity <79350028+SugarSingularity@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+flake8 = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
